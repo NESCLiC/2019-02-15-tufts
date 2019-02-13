@@ -217,7 +217,6 @@ eventbrite: "54412348800"          # optional: alphanumeric key for Eventbrite r
   {% include lc/schedule.html %}
 {% endif %}
 
-{% comment %}
   Collaborative Notes
 
   If you want to use an Etherpad, go to
@@ -226,7 +225,7 @@ eventbrite: "54412348800"          # optional: alphanumeric key for Eventbrite r
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
-{% endcomment %}
+
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
