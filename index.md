@@ -205,8 +205,7 @@ eventbrite: "54412348800"          # optional: alphanumeric key for Eventbrite r
 
   Show the workshop's schedule.  Edit the items and times in the table
   to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
-{% endcomment %}
+  2' to be actual dates or days of the week.{% endcomment %}
 
 <h2 id="schedule">Schedule</h2>
 
@@ -226,8 +225,7 @@ eventbrite: "54412348800"          # optional: alphanumeric key for Eventbrite r
       http://pad.software-carpentry.org/YYYY-MM-DD-site
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
-  e.g., '2015-06-10-esu'.
-{% endcomment %}
+  e.g., '2015-06-10-esu'.{% endcomment %}
 
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
